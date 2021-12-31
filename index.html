@@ -9,7 +9,7 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="./style.css" />
-        <title>Count down 2022</title>
+        <title>Countdown 2022</title>
     </head>
     <body>
         <div class="wrapper">
@@ -23,23 +23,32 @@
                     <span class="num" id="day-box"> 00 </span>
                     <span class="text">Days</span>
                 </div>
-    
+
                 <div class="box">
                     <span class="num" id="hr-box"> 00 </span>
                     <span class="text">Hours</span>
                 </div>
-    
+
                 <div class="box">
                     <span class="num" id="min-box"> 00 </span>
                     <span class="text">Minutes</span>
                 </div>
-    
+
                 <div class="box">
                     <span class="num" id="sec-box"> 00 </span>
                     <span class="text">Seconds</span>
                 </div>
             </div>
+
+            <div class="button">
+                <img id="icon" src="./play.png" alt="play" />
+            </div>
         </div>
+        <audio id="mySong">
+            <source src="music.mp3" type="audio/mp3" />
+        </audio>
+
+        <canvas id="canvas"></canvas>
         <!-- Script -->
         <script src="script.js"></script>
     </body>

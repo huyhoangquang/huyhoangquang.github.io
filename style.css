@@ -106,3 +106,31 @@ span.text {
     border-radius: 0.3em;
     box-shadow: var(--color-shadow);
 }
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}
+
+.button{
+    padding: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button > p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 1em;
+}
+
+.button > img {
+    width: 10%;
+    cursor: pointer;
+}
+
+.button > img:hover {
+    transform: scale(1.07);
+}
